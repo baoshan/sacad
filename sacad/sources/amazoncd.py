@@ -11,7 +11,7 @@ from sacad.sources.base import CoverSource
 class AmazonCdCoverSourceResult(CoverSourceResult):
 
   def __init__(self, *args, **kwargs):
-    super().__init__(*args, source_quality=CoverSourceQuality.NORMAL, **kwargs)
+    super().__init__(*args, source_quality=CoverSourceQuality.REFERENCE, **kwargs)
 
 
 class AmazonCdCoverSource(CoverSource):
